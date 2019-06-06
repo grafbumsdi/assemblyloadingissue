@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <AssemblyTitle>AssemblyIssue</AssemblyTitle>
+    <AssemblyDescription>AssemblyIssue</AssemblyDescription>
+    <Description>$(AssemblyDescription)</Description>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NLog.Extensions.Logging" Version="1.5.1" />
+    <PackageReference Include="NUnit" Version="3.11.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.13.0" />
+  </ItemGroup>
+</Project>
